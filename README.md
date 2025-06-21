@@ -25,7 +25,7 @@ The full license text is included in this repository and can be found in the [LI
 
 To apply the NCSAM license to your own work, or to obtain a copy of the license with your personalized copyright statement, please visit:
 
-[Get Your License](https://github.com/FlameF0X/NCSAM/blob/main/get-your-license)
+[Get Your License](./get-your-license)
 
 This resource provides step-by-step instructions for generating a license file customized with your copyright information.
 
