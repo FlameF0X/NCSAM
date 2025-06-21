@@ -1,177 +1,219 @@
-NON-COMMERCIAL CREATOR-RESERVED LICENSE (NCCR)
+NON-COMMERCIAL SOURCE CODE AND AI/ML MODEL LICENSE (NCSAM)
 Version 1.0
 
-Copyright (c) [YEAR] [COPYRIGHT HOLDER(S)] [CREATOR(S)]
+Copyright (c) [YEAR] [COPYRIGHT HOLDER]
 
-GRANT OF RIGHTS AND RESTRICTIONS
+DEFINITIONS
 
-Permission is hereby granted, free of charge, to any person or entity
-(the "Licensee") obtaining a copy of this work, which may consist of:
-(a) source code, software, scripts, libraries, or applications (the "Code");
-(b) artificial intelligence models, machine learning models, neural networks,
-    model weights, training data, or related AI/ML artifacts (the "Models");
-(c) any combination of Code and Models; or
-(d) associated documentation, datasets, and related materials
-(collectively, the "Work"), to deal in the Work under the terms and
-conditions of this license.
+For the purposes of this license, the following terms shall have the meanings
+set forth below:
 
-1. SCOPE OF APPLICATION
-   This license may be applied to:
-   1.1. Code-only works (software, applications, libraries, scripts)
-   1.2. AI/ML model-only works (trained models, weights, architectures)
-   1.3. Combined Code and AI/ML model works (integrated systems)
-   1.4. Documentation, datasets, and supporting materials associated with
-        any of the above
+"Work" means the copyrightable work of authorship, whether in source code form,
+compiled form, AI/ML model form, or any other form, licensed under this License.
+This includes but is not limited to:
+- Source code, object code, and executable files
+- AI/ML models, neural networks, and associated weights
+- Training datasets, model architectures, and configuration files
+- Documentation, scripts, and related materials
 
-2. PERMITTED NON-COMMERCIAL USES
-   Subject to the terms herein, Licensee is granted the following rights
-   for NON-COMMERCIAL purposes only:
-   2.1. USE: Execute, run, or deploy the Work for personal, educational,
-        academic, or research purposes
-   2.2. STUDY: Examine, analyze, and reverse-engineer the Work to understand
-        its functionality, methodology, or implementation
-   2.3. MODIFY: Create derivative works, adaptations, improvements, or
-        modifications of the Work
-   2.4. COPY: Make copies of the Work for backup, archival, or distribution
-        purposes as permitted herein
-   2.5. DISTRIBUTE: Share copies of the original Work or derivative works
-        with others under the same license terms
+"You" or "Your" means an individual or Legal Entity exercising permissions
+granted by this License.
 
-3. COMMERCIAL USE RESERVATION AND RESTRICTIONS
-   3.1. CREATOR EXCLUSIVE RIGHTS: Only the original creators, authors,
-        copyright holders, and their authorized representatives
-        (collectively, the "Creators") retain the exclusive right to use
-        the Work for commercial purposes.
-   
-   3.2. PROHIBITED COMMERCIAL ACTIVITIES: Licensee may NOT, without express
-        written permission from the Creators:
-        a) Sell, license, or sublicense the Work or any derivative works
-        b) Use the Work in commercial products, services, or applications
-        c) Incorporate the Work into revenue-generating systems or platforms
-        d) Offer the Work as part of paid services, consulting, or support
-        e) Use the Work to train commercial AI models or systems
-        f) Deploy the Work in production environments for business purposes
-        g) Use the Work to compete with the Creators' commercial offerings
-        h) Generate any form of monetary compensation through use of the Work
+"Legal Entity" means the union of the acting entity and all other entities that
+control, are controlled by, or are under common control with that entity.
 
-   3.3. COMMERCIAL PERMISSION PROCESS: Licensee may request permission for
-        commercial use by contacting the Creators through the official
-        channels specified in the Work's documentation. Such permission:
-        a) Must be granted in writing by the Creators
-        b) May include additional terms, conditions, or licensing fees
-        c) May be revoked at the Creators' discretion with reasonable notice
-        d) Does not create any obligation for the Creators to grant permission
+"Licensor" means the copyright owner or entity authorized by the copyright owner
+that is granting the License.
 
-4. REDISTRIBUTION AND DERIVATIVE WORKS
-   4.1. LICENSE PROPAGATION: All redistribution of the Work or derivative
-        works must include this complete license text and copyright notice.
-   
-   4.2. DERIVATIVE WORK LICENSING: All derivative works must be licensed
-        under this same license, preserving all restrictions and Creator
-        rights.
-   
-   4.3. MODIFICATION DISCLOSURE: Redistributions of modified versions must
-        clearly indicate the changes made and identify the modifications.
-   
-   4.4. SOURCE AVAILABILITY: If distributing Code in compiled or binary
-        form, the corresponding source code must be made available under
-        this license.
+"Commercial Use" means any use of the Work that is primarily intended for or
+directed toward commercial advantage or monetary compensation, including but
+not limited to:
+- Sale, lease, license, or other transfer of the Work for monetary consideration
+- Use of the Work in connection with business operations or commercial services
+- Integration of the Work into commercial products or platforms
+- Use of the Work to provide paid services, consulting, or support
+- Use of the Work to generate, process, or analyze data for commercial purposes
+- Any use where the Work contributes to revenue generation or cost savings
 
-5. ATTRIBUTION AND CREDIT REQUIREMENTS
-   5.1. MANDATORY ATTRIBUTION: All uses, distributions, and derivative works
-        must include:
-        a) Original copyright notices and Creator identification
-        b) Reference to this license and its terms
-        c) Link to the original Work repository or publication
-        d) Clear identification of any modifications made
-   
-   5.2. ACADEMIC CITATION: In academic or research contexts, appropriate
-        citation of the Work and its Creators is required according to
-        standard academic practices.
+"Derivative Works" means any work that is based upon the Work or portions thereof,
+including but not limited to modifications, adaptations, fine-tuned models,
+translated versions, or works incorporating the Work.
 
-6. TECHNICAL AND SECURITY CONSIDERATIONS
-   6.1. MODEL INTEGRITY: For AI/ML models, Licensee must not attempt to
-        extract, reverse-engineer, or reconstruct training data in ways
-        that could compromise privacy or security.
-   
-   6.2. MISUSE PREVENTION: Licensee must not use the Work in ways that
-        could cause harm, violate laws, or infringe upon third-party rights.
-   
-   6.3. RESPONSIBLE DISCLOSURE: Security vulnerabilities or potential misuse
-        vectors should be reported to the Creators before public disclosure.
+"Distribution" means to make available to the public the original and copies
+of the Work or Derivative Works, whether gratis or for a charge, including
+without limitation distribution via electronic download, physical media, or
+network transmission.
 
-7. TERMINATION CONDITIONS
-   7.1. AUTOMATIC TERMINATION: This license terminates automatically if
-        Licensee violates any of its terms or conditions.
-   
-   7.2. CREATOR TERMINATION: Creators may terminate this license for any
-        Licensee with 30 days written notice.
-   
-   7.3. EFFECT OF TERMINATION: Upon termination, Licensee must cease all
-        use of the Work and destroy all copies in their possession.
+GRANT OF RIGHTS
 
-8. COMPLIANCE AND MONITORING
-   8.1. USAGE REPORTING: Creators may request reasonable documentation of
-        how the Work is being used for compliance verification.
-   
-   8.2. AUDIT RIGHTS: Creators reserve the right to audit Licensee's use
-        of the Work to ensure compliance with this license.
+Subject to the terms and conditions of this License, each Licensor hereby grants
+to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free,
+irrevocable (except as stated in this section) license to:
 
-9. NON-ENFORCEMENT DECLARATION AND DISPUTE RESOLUTION
-   9.1. LIMITED ENFORCEMENT APPROACH: While this license creates binding
-        obligations, the Creators primarily rely on community standards
-        and professional ethics for compliance rather than aggressive
-        legal enforcement.
-   
-   9.2. PREFERRED RESOLUTION: Creators prefer to resolve disputes through:
-        a) Direct communication and dialogue
-        b) Community mediation and discussion
-        c) Collaborative problem-solving approaches
-   
-   9.3. LEGAL ACTION THRESHOLD: Legal enforcement will only be pursued in
-        cases of:
-        a) Willful and material commercial violations
-        b) Bad faith use that damages the Creators or community
-        c) Failure to respond to reasonable compliance requests
-        d) Repeated violations after notice and opportunity to cure
+1. USE the Work for non-commercial purposes, including personal, educational,
+   academic research, and non-profit organizational use;
 
-   9.4. ENFORCEMENT DISCLAIMER: This declaration does not waive the Creators'
-        legal rights but indicates their preference for community-based
-        resolution.
+2. REPRODUCE the Work in copies for non-commercial purposes;
 
-10. WARRANTIES AND LIABILITY
-    10.1. NO WARRANTIES: THE WORK IS PROVIDED "AS IS" WITHOUT WARRANTY OF
-          ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
-          WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE,
-          ACCURACY, COMPLETENESS, AND NONINFRINGEMENT.
-    
-    10.2. LIMITATION OF LIABILITY: IN NO EVENT SHALL THE CREATORS BE LIABLE
-          FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION
-          OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN
-          CONNECTION WITH THE WORK OR THE USE OR OTHER DEALINGS IN THE WORK.
-    
-    10.3. INDEMNIFICATION: Licensee agrees to indemnify and hold harmless
-          the Creators from any claims arising from Licensee's use of the
-          Work.
+3. PREPARE Derivative Works based upon the Work for non-commercial purposes;
 
-11. GENERAL PROVISIONS
-    11.1. SEVERABILITY: If any provision of this license is held invalid
-          or unenforceable, the remainder shall continue in full force.
-    
-    11.2. GOVERNING LAW: This license shall be governed by the laws of the
-          jurisdiction where the Creators are primarily located.
-    
-    11.3. ENTIRE AGREEMENT: This license constitutes the entire agreement
-          between the parties regarding the Work.
-    
-    11.4. AMENDMENTS: This license may only be modified by written agreement
-          signed by the Creators.
+4. DISTRIBUTE copies of the Work and Derivative Works thereof in any medium,
+   with or without modifications, for non-commercial purposes only.
 
-BY USING, COPYING, MODIFYING, OR DISTRIBUTING THE WORK, LICENSEE ACKNOWLEDGES
-THAT THEY HAVE READ, UNDERSTOOD, AND AGREE TO BE BOUND BY THE TERMS OF THIS
-LICENSE.
+COMMERCIAL USE RESTRICTIONS
 
-For commercial licensing inquiries, please contact: [CONTACT INFORMATION]
+1. EXCLUSIVE COMMERCIAL RIGHTS
+   Commercial Use of the Work is exclusively reserved to the Licensor and any
+   parties explicitly authorized in writing by the Licensor. No rights for
+   Commercial Use are granted under this License.
 
-License Identifier: NCCR-1.0
-Compatible with: Custom implementations requiring creator-reserved commercial rights
+2. COMMERCIAL PERMISSION REQUIREMENT
+   Any Commercial Use of the Work requires prior written permission from the
+   Licensor. Such permission may be granted at the sole discretion of the
+   Licensor and may be subject to separate terms, conditions, and fees.
+
+3. COMMERCIAL LICENSE AVAILABILITY
+   You may request permission for Commercial Use by contacting the Licensor
+   through the means specified in the Work's documentation or repository.
+   The Licensor reserves the right to:
+   - Grant or deny such requests at their sole discretion
+   - Impose terms and conditions for commercial licensing
+   - Require payment of licensing fees or royalties
+   - Limit the scope, duration, or territory of commercial use
+
+CONDITIONS AND LIMITATIONS
+
+1. ATTRIBUTION REQUIREMENT
+   You must give appropriate credit to the Licensor, provide a link to this
+   license, and indicate if changes were made. You may do so in any reasonable
+   manner, but not in any way that suggests the Licensor endorses You or Your use.
+
+2. COPYLEFT PROVISION
+   If You distribute the Work or any Derivative Works thereof, You must:
+   a) Include a copy of this License with every copy of the Work;
+   b) Cause any modified files to carry prominent notices stating that You
+      changed the files;
+   c) License the entire Derivative Work under this License;
+   d) Retain all copyright, patent, trademark, and attribution notices.
+
+3. PATENT PROVISION
+   If You institute patent litigation against any entity alleging that the
+   Work or a Derivative Work incorporated within the Work constitutes direct
+   or contributory patent infringement, then any rights granted to You under
+   this License shall terminate as of the date such litigation is filed.
+
+4. NO ADDITIONAL RESTRICTIONS
+   You may not apply legal terms or technological measures that legally restrict
+   others from doing anything this License permits, except as required for
+   Commercial Use restrictions.
+
+5. NETWORK USE
+   Use of the Work over a computer network, including but not limited to
+   Software-as-a-Service (SaaS) offerings, API services, or web applications,
+   constitutes Distribution for purposes of this License and is subject to
+   all terms herein.
+
+APPLICABILITY AND SCOPE
+
+This License may be applied to:
+
+1. SOURCE CODE ONLY
+   When applied to source code repositories, this License governs the use,
+   modification, and distribution of software code, scripts, configuration
+   files, and associated documentation.
+
+2. AI/ML MODELS ONLY
+   When applied to AI/ML models, this License governs the use, fine-tuning,
+   inference, and distribution of model weights, architectures, training
+   datasets, and associated artifacts.
+
+3. COMBINED WORKS
+   When applied to combined works containing both source code and AI/ML models,
+   this License governs all components of the Work collectively, including
+   training code, inference engines, model files, and related materials.
+
+The scope of this License as indicated in the Work's documentation or
+repository shall determine which application applies.
+
+TERMINATION
+
+This License and the rights granted hereunder will terminate automatically
+upon any breach by You of the terms of this License. Individuals or entities
+who have received Derivative Works from You under this License, however, will
+not have their licenses terminated provided such individuals or entities
+remain in full compliance with those licenses.
+
+NON-ENFORCEMENT DECLARATION
+
+THE LICENSOR HEREBY DECLARES THAT THIS LICENSE IS INTENDED PRIMARILY AS AN
+ETHICAL GUIDELINE AND COMMUNITY STANDARD RATHER THAN A LEGALLY ENFORCEABLE
+INSTRUMENT.
+
+NOTWITHSTANDING ANY OTHER PROVISION OF THIS LICENSE, THE LICENSOR EXPLICITLY
+WAIVES THE RIGHT TO PURSUE LEGAL ACTION, LITIGATION, OR FORMAL ENFORCEMENT
+PROCEEDINGS FOR VIOLATIONS OF THE NON-COMMERCIAL USE RESTRICTIONS OR OTHER
+TERMS OF THIS LICENSE.
+
+This waiver does not extend to:
+- Actions to protect trademark or patent rights
+- Actions related to warranty disclaimers or liability limitations
+- Actions to enforce proper attribution requirements
+- Actions related to Commercial Use undertaken without proper authorization
+
+The Licensor reserves the right to:
+- Engage in community discussion regarding license compliance
+- Request voluntary compliance with license terms
+- Pursue separate commercial licensing arrangements
+- Exercise rights related to the COMMERCIAL USE RESTRICTIONS section above
+
+DISCLAIMER OF WARRANTY
+
+THE WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. THE ENTIRE RISK AS
+TO THE QUALITY AND PERFORMANCE OF THE WORK IS WITH YOU. SHOULD THE WORK
+PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR
+OR CORRECTION.
+
+LIMITATION OF LIABILITY
+
+IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL
+THE LICENSOR, OR ANY CONTRIBUTOR, BE LIABLE TO YOU FOR DAMAGES, INCLUDING
+ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF
+THE USE OR INABILITY TO USE THE WORK (INCLUDING BUT NOT LIMITED TO LOSS OF
+DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD
+PARTIES OR A FAILURE OF THE WORK TO OPERATE WITH ANY OTHER PROGRAMS),
+EVEN IF THE LICENSOR OR CONTRIBUTOR HAS BEEN ADVISED OF THE POSSIBILITY
+OF SUCH DAMAGES.
+
+INTERPRETATION
+
+If any provision of this License is held to be unenforceable, such provision
+shall be reformed only to the extent necessary to make it enforceable. This
+License represents the complete agreement concerning the subject matter hereof.
+
+END OF TERMS AND CONDITIONS
+
+---
+
+How to apply the Non-Commercial Source Code and AI/ML Model License to your work:
+
+To apply this license to your work, attach the following boilerplate notice,
+with the fields enclosed by brackets "[]" replaced with your own identifying
+information:
+
+    Copyright [yyyy] [name of copyright owner]
+
+    Licensed under the Non-Commercial Source Code and AI/ML Model License (NCSAM),
+    Version 1.0 (the "License"); you may not use this file except in compliance
+    with the License. You may obtain a copy of the License at
+
+    https://github.com/FlameF0X/NCSAM/
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+
+SPDX-License-Identifier: NCSAM-1.0
